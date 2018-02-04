@@ -9,3 +9,5 @@
 --format cocos2d --opt RGBA4444 --dither-fs-alpha --size-constraints AnySize --allow-free-size --disable-rotation --trim-mode None --border-padding 0 --inner-padding 0
 ```
 2. 可以設定黑名單, 如果不要轉成.ccz的可以加入黑名單中, 可以設置[pngquant](https://pngquant.org/)路徑用來做png優化
+
+主要幫美術做一些批次檔案轉換, 如果不能接受TexturePacker的轉換效果也可以用pngquant來做圖片優化
